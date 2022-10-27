@@ -1,0 +1,421 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+h1 h2 h3 h4 h5 h6 {
+    margin: 0;
+    padding: 0;
+}
+
+/* <!-- header  part start --> */
+header {
+    background-color: #FBDA00;
+    padding: 20px;
+
+
+}
+
+.content_item {
+    max-width: 80%;
+    margin: auto;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 30%;
+}
+
+.content_item nav {
+    width: 40%;
+}
+
+.content_item nav ul {
+    display: flex;
+    justify-content: space-between;
+}
+
+.content_item nav ul li {
+    list-style: none;
+}
+
+.content_item nav ul a {
+    text-transform: uppercase;
+    text-decoration: none;
+    color: #000;
+    font-weight: 900;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+}
+
+.content_item nav ul a:hover {
+    color: rgb(252, 252, 252);
+    transition: .3s;
+}
+
+/* <!-- header  part end --> */
+
+/* <!-- banner item start --> */
+.banner {
+    background-color: #FBDA00;
+    padding: 37px 40px;
+
+}
+
+.banner_item {
+    max-width: 80%;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.banner_content {
+    width: 50%;
+
+
+
+
+}
+
+.banner_content h1 {
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+}
+
+.banner_content h4 {
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+}
+
+.banner_content p {
+    margin-top: 20px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+}
+
+.banner_content a i {
+    margin-top: 20px;
+    margin-right: 20px;
+    font-size: 30px;
+    color: #000;
+}
+
+.images_content {
+    width: 30%;
+
+}
+
+/* <!-- banner item close --> */
+
+/* <!-- feature contain  start --> */
+.feature_content {}
+
+.container {
+    max-width: 50%;
+    margin: auto;
+    margin-top: 40px;
+}
+
+/* <!-- feature contain  end --> */
+
+/* <!-- feature hading start --> */
+
+
+.feature_heading {
+    text-align: center;
+}
+
+.feature_heading h1 {
+    color: #000;
+    font-size: 60px;
+    font-weight: 900;
+    margin-top: 20px;
+    text-transform: capitalize;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+}
+
+.feature_heading p {
+    margin-top: 16px;
+    font-size: 19px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+}
+
+
+/* <!-- feature heading end --> */
+
+/* <!-- features col start --> */
+
+.features_col {
+    margin-top: 40px;
+
+}
+
+.features_flex {
+
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+
+}
+
+/* <!-- features col end --> */
+
+
+/* <!-- col start --> */
+.col {
+    width: 33.3%;
+
+}
+
+.flex {
+    display: flex;
+    margin-top: 40px;
+
+}
+
+
+.feature_icon {}
+
+.feature_icon li {
+    list-style: none;
+    margin-top: 5px;
+    margin-right: 20px;
+}
+
+.feature_icon li i {
+    font-size: 25px;
+    color: #000;
+}
+
+
+.feature_content {}
+
+.feature_content h1 {
+    font-size: 20px;
+    color: #222222;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+
+}
+
+.feature_content h3 {
+    color: #646464;
+    font-size: 14px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+
+}
+
+/* <!-- col end --> */
+
+/* <!-- footer wrapper item start --> */
+.fotter_wrapper{
+background: #000;
+margin-top: 40px;
+padding: 80px 50px 80px 50px;
+overflow: hidden;
+}
+.wrapper{
+max-width: 50%;
+margin: auto;
+
+}
+
+.wrapper hr{
+    margin-top: 100px;
+}
+
+.wrapper_header{
+text-align: center;
+
+
+
+
+}
+.wrapper_header h1{
+    color: #FBDA00;
+    margin-top: 20px;
+    font-size: 35px;
+    font-weight: 700;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+    
+}
+.wrapper_header p{
+    color: #ffffff;
+    margin-top: 20px;
+    font-size: 16px;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+    
+}
+.wrapper_header form{
+    margin-top: 50px;
+}
+.wrapper_header form input{
+    width: 70%;
+    border: none;
+    padding: 20px 15px;
+    border-radius: 8px;
+    outline: none;
+}
+
+.wrapper_header form input[type="submit"]{
+    width: 15%;
+    padding: 0;
+    padding: 17.5px  13px ;
+    margin-left: 10px;
+    border-radius: 8px;
+    text-transform: capitalize;
+    font-weight: 700;
+    font-size: 16px;
+    cursor: pointer;
+
+}
+.wrapper_header form input:hover{
+    background-color: #FBDA00;
+    transition: .9s;
+}
+
+
+/* <!-- footer wrapper item end --> */
+
+/* <!-- sigup_contenr item star --> */
+
+.signup_content{
+    display: flex;
+    justify-content: space-between;
+}
+
+
+.signup_item{
+max-width: 50%;
+margin: auto;
+margin-top: 50px;
+
+}
+
+
+.signup_details{
+    width: 33.3%;
+    display: flex;
+justify-content: space-between;
+}
+.signup_details li{
+list-style: none;
+}
+.signup_details li i{
+color: #FBDA00;
+font-size: 35px;
+margin-left: 40px;
+}
+.signup_details li i:hover{
+    background-color: #b19a06;
+    transition: .5s;
+}
+
+
+/* <!-- sigup_contenr item end --> */
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- footer details item start --> */
+
+.footer_details{
+margin-top: 50px;
+
+}
+
+.footer_details hr{
+    max-width: 60%;
+    margin-left: 285px;
+    border-bottom: 1px solid;
+
+}
+.footer_content{
+max-width: 70%;
+margin: auto;
+display: flex;
+justify-content: space-between;
+
+}
+.footer_col{
+  color: #ffffff; 
+  margin-top: 100px;
+}
+.footer_col {
+   width: 33.3%;
+}
+
+
+
+.footer_col h2 {
+font-size: 16px;
+font-weight: 300;
+font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+}
+.footer_col h3 {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+}
+.footer_col h4 {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+}
+.footer_col h5 {
+    font-size: 16px;
+    font-weight: 300;
+    font-family: 'Lato', sans-serif;
+font-family: 'Playfair Display', serif;
+font-family: 'PT Sans', sans-serif;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+/* <!-- footer wrapper end --> */
